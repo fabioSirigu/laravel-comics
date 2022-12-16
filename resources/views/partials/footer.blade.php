@@ -55,9 +55,11 @@
                   <nav class="navbar">
                         <h3>follow us</h3>
                         <div>
-                              <a v-for="icon in Icons" href="#">
-                                    <img :src="'../src/assets/img/' + icon.url" alt="">
-                              </a>
+                              <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="">
+                              <img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt="">
+                              <img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="">
+                              <img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt="">
+                              <img src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt="">
                         </div>
                   </nav>
             </div>

@@ -321,27 +321,6 @@ return [
                   'DC Power Visa'
 
             ],
-            'Icons' => [
-                  [
-                        'url' => 'footer-facebook.png',
-                        'name' => 'facebook'
-                  ],
-                  [
-                        'url' => 'footer-periscope.png',
-                        'name' => 'facebook'
-                  ],
-                  [
-                        'url' => 'footer-pinterest.png',
-                        'name' => 'facebook'
-                  ],
-                  [
-                        'url' => 'footer-twitter.png',
-                        'name' => 'facebook'
-                  ],
-                  [
-                        'url' => 'footer-youtube.png',
-                        'name' => 'facebook'
-                  ],
-            ]
+
       ]
 ];
