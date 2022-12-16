@@ -257,87 +257,69 @@ return [
       ],
       'footer' => [
             'DcComics' => [
-                  [
-                        'text' => 'Characters',
-                  ],
-                  [
-                        'text' => 'Comics'
-                  ],
-                  [
-                        'text' => 'Movies'
-                  ],
-                  [
-                        'text' => 'TV'
-                  ],
-                  [
-                        'text' => 'Games'
-                  ],
-                  [
-                        'text' => 'Videos'
-                  ],
-                  [
-                        'text' => 'News'
-                  ]
+
+                  'Characters',
+
+
+                  'Comics',
+
+
+                  'Movies',
+
+
+                  'TV',
+
+                  'Games',
+
+
+                  'Videos',
+
+
+                  'News',
+
             ],
             'Shop' => [
-                  [
-                        'text' => 'Shop DC'
-                  ],
-                  [
-                        'text' => 'Shop DC Collectibles'
-                  ]
+                  'Shop DC',
+                  'Shop DC Collectibles'
             ],
             'DC' => [
-                  [
-                        'text' => 'Terms Of Use'
-                  ],
-                  [
-                        'text' => 'Privacy policy (New)'
-                  ],
-                  [
-                        'text' => 'Ad Choices'
-                  ],
-                  [
-                        'text' => 'Advertising'
-                  ],
-                  [
-                        'text' => 'Jobs'
-                  ],
-                  [
-                        'text' => 'Subscriptions'
-                  ],
-                  [
-                        'text' => 'Talent Workshops'
-                  ],
-                  [
-                        'text' => 'CPSC Certificates'
-                  ],
-                  [
-                        'text' => 'Ratings'
-                  ],
-                  [
-                        'text' => 'Shop Help'
-                  ],
-                  [
-                        'text' => 'Contact Us'
-                  ],
+
+                  'Terms Of Use',
+
+                  'Privacy policy (New)',
+
+                  'Ad Choices',
+
+                  'Advertising',
+
+                  'Jobs',
+
+                  'Subscriptions',
+
+                  'Talent Workshops',
+
+                  'CPSC Certificates',
+
+                  'Ratings',
+
+                  'Shop Help',
+
+
+                  'Contact Us',
+
             ],
             'Sites' => [
-                  [
-                        'text' => 'DC'
-                  ],
-                  [
-                        'text' => 'MAD Magazine'
-                  ],
-                  [
-                        'text' => 'DC Kids'
-                  ],
-                  [
-                        'text' => 'DC Universe'
-                  ],
-                  [
-                        'text' => 'DC Power Visa'
-                  ]
+
+                  'DC',
+
+                  'MAD Magazine',
+
+                  'DC Kids',
+
+                  'DC Universe',
+
+                  'DC Power Visa'
+
             ],
             'Icons' => [
                   [

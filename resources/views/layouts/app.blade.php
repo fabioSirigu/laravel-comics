@@ -20,6 +20,8 @@
       <main class="bg-light">
 
       </main>
+      @include('partials.footer')
+
 
 </body>
 

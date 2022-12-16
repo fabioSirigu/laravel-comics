@@ -6,23 +6,37 @@
                               <div class="row">
                                     <div class="col">
                                           <h3>dc comics</h3>
-
-                                          <a href="#">{{ item.text }}</a>
-
+                                          @foreach(Config::get('db.footer.DcComics') as $link)
+                                          <a href="#">
+                                                {{ $link }}
+                                          </a>
+                                          @endforeach
                                           <h3>shop</h3>
-                                          <a href="#" v-for="item in Shop">{{ item.text }}</a>
+                                          @foreach(Config::get('db.footer.Shop') as $link)
+                                          <a href="#">
+                                                {{ $link }}
+                                          </a>
+                                          @endforeach
 
 
                                     </div>
                                     <div class="col">
                                           <h3>DC</h3>
-                                          <a href="#" v-for="item in DC">{{ item.text }}</a>
+                                          @foreach(Config::get('db.footer.DC') as $link)
+                                          <a href="#">
+                                                {{ $link }}
+                                          </a>
+                                          @endforeach
 
                                     </div>
                                     <div class="col">
                                           <h3>Sites</h3>
 
-                                          <a href="#" v-for="item in Sites">{{ item.text }}</a>
+                                          @foreach(Config::get('db.footer.DC') as $link)
+                                          <a href="#">
+                                                {{ $link }}
+                                          </a>
+                                          @endforeach
 
 
                                     </div>
