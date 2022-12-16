@@ -11,8 +11,16 @@
         <div class="row">
             @foreach(Config::get('db.comics') as $comic)
             <div class="col-2">
-                <img src="{{$comic['thumb']}}" alt="">
+                @if($comic === Config::get('db.comics')[0])
+                <a href="{{route('description')}}">
+                    <img src="{{$comic['thumb']}}" alt="">
+                    <p>{{$comic['series']}}</p>
+                </a>
+
+                @else
+                <img src="{{$comic['thumb']}}" alt="title">
                 <p>{{$comic['series']}}</p>
+                @endif
             </div>
             @endforeach
         </div>

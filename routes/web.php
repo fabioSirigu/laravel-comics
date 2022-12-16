@@ -19,3 +19,11 @@ Route::get('/', function () {
 
     return view('welcome');
 })->name('home');
+
+Route::get('/description', function () {
+
+    $data = [
+        'thumb' => config('db.comics'),
+    ];
+    return view('description', $data);
+})->name('description');
