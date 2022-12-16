@@ -55,11 +55,11 @@
                   <nav class="navbar">
                         <h3>follow us</h3>
                         <div>
-                              <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="">
-                              <img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt="">
-                              <img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="">
-                              <img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt="">
-                              <img src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt="">
+                              @foreach(Config::get('db.footer.Icons') as $icon)
+                              <a href="#">
+                                    <img src="{{ Vite::asset('resources/img/' . $icon) }}">
+                              </a>
+                              @endforeach
                         </div>
                   </nav>
             </div>

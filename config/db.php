@@ -321,6 +321,42 @@ return [
                   'DC Power Visa'
 
             ],
+            'Icons' => [
 
+                  'footer-facebook.png',
+
+                  'footer-periscope.png',
+
+                  'footer-pinterest.png',
+
+                  'footer-twitter.png',
+
+                  'footer-youtube.png',
+
+            ]
+
+
+      ],
+      'icons' => [
+            [
+                  'image' => 'buy-comics-digital-comics.png',
+                  'text' => 'Digital Comics'
+            ],
+            [
+                  'image' => 'buy-comics-merchandise.png',
+                  'text' => 'DC Merchandise'
+            ],
+            [
+                  'image' => 'buy-comics-subscriptions.png',
+                  'text' => 'Subscriction'
+            ],
+            [
+                  'image' => 'buy-comics-shop-locator.png',
+                  'text' => 'Comics shop locator'
+            ],
+            [
+                  'image' => 'buy-dc-power-visa.svg',
+                  'text' => 'DC power visa'
+            ]
       ]
 ];
